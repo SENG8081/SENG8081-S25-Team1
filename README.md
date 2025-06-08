@@ -7,4 +7,4 @@
 
 ## Project
 ### Job Market Trends in Canada
-To analyze and visualize employment trends, job posting dynamics, sectoral shifts, and unemployment patterns across Canadian provinces from 2018 to 2024, with the goal of identifying economic signals, emerging industries, and potential indicators of recession or recovery.
+To analyze and visualize employment trends, job posting dynamics, sectoral shifts, and unemployment patterns across Canadian provinces, with the goal of identifying economic signals, emerging industries, and potential indicators of recession or recovery.
