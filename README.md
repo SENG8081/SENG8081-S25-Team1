@@ -22,8 +22,9 @@ This project conducts a comprehensive analysis of Canada’s job market, focusin
 * Python Backend: Data ingestion, cleaning, and analysis.
 * Real-Time API: Statistics Canada Labour Force Survey API.
 * Historical Dataset: Government of Canada Open Data Portal archives and Kaggle dataset.
-* Database: Microsoft SQL Server - Structured storage for time-series data.
-* Dashboard: Tableau for visualization.
+* Custom Web Scraper: Collects live job postings from Google Jobs.
+* Database: NoSQL storage using MongoDB.
+* Dashboard: Tableau (connected via MongoDB BI Connector) or MongoDB Charts for visualization.
 
 #### Data Research and Integration
 
@@ -39,59 +40,61 @@ This project conducts a comprehensive analysis of Canada’s job market, focusin
 - Cleaning datasets by fixing missing, null or error values.
 - Standardize raw data formats for loading into the job_market_trends database.
 - Maintain reproducibility and versioning of collected data files.
+- Scrape live job postings using a custom Python scraper.
 
 ##### Approaches
 
 1. Historical Data
     1. Download CSV/JSON datasets.
     2. Clean data using pandas.
-    3. Load into SQL Server via pyodbc.
+    3. Load into Database via pymongo.
 
 2. Real-Time Data
     1. Fetch data using API key and Python’s requests.
-    2. Parse responses into structured tables.
-    3. Merge with historical data using pandas/SQL.
+    2. Scrape live job postings using a custom Python scraper.
+    3. Parse JSON and normalize.
+    4. Merge into existing MongoDB collections.
 
 #### Data Storage and Maintenance
 
-Data Storage: Microsoft SQL Server
+Data Storage: MongoDB
 
 ##### Schema: 
 
 Database: job_market_trends
 Tables: 
-1. _labour_force_stats_: Labour force characteristics by region, gender, age group
+1. _labour_force_stats_: Labour force characteristics by region, gender, age group.
 
-2. _industry_jobs_: NAICS industry job counts across years and sectors
+2. _industry_jobs_: NAICS industry job counts across years and sectors.
 
-3. _job_postings_: Detailed job postings scraped from LinkedIn or Google Jobs
+3. _job_postings_: Detailed job postings scraped from LinkedIn or Google Jobs.
 
 ##### Maintenance Practices
 
 ✅ Ingestion Strategy
-- Use `load_data.py` to insert or append CSV data to MySQL
-- Column normalization and null checks handled before insert
-- Timestamp columns converted appropriately
+- Use `load_data.py` for batch loading.
+- Column normalization and null checks handled before insert.
+- Timestamp columns converted appropriately.
 
 🔄 Update Schedule
-- Monthly: Labour Force & Industry Jobs (from StatsCan, Open Canada)
-- Daily/Weekly:Job postings via automated scraper
+- Monthly: Labour Force & Industry Jobs (from StatsCan, Open Canada).
+- Daily/Weekly:Job postings via automated scraper.
 - Monthly archiving of API data.
 - Automated backups.
 
 🧹 Data Hygiene
-- De-duplication using primary keys
-- Missing values filled with defaults or flagged for review
-- Normalization ensures analytical consistency
+- De-duplication using IDs.
+- Missing values filled with defaults or flagged for review.
+- Normalization ensures analytical consistency.
 
 🛡️ Backups
-- Weekly dump using `mysqldump` to `/backups/`
-- Retain minimum 3 historical snapshots
+- Weekly dump using mongodump to backups.
+- Retain minimum 3 historical snapshots.
 
 ### Next Phase Plan
 - Merge all the scripts together and add automated testcases.
-- Start with Data Quality
-- Finalize on the visualizations required
+- Start with Data Quality.
+- Finalize on the visualizations required.
 
 
 
