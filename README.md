@@ -57,12 +57,14 @@ This project conducts a comprehensive analysis of Canada’s job market, focusin
 
 #### Data Storage and Maintenance
 
-Data Storage: MongoDB
+Data Storage: _MongoDB_
 
 ##### Schema: 
 
-Database: job_market_trends
-Tables: 
+Database: _job_market_trends_ 
+
+Collections: 
+
 1. _labour_force_stats_: Labour force characteristics by region, gender, age group.
 
 2. _industry_jobs_: NAICS industry job counts across years and sectors.
