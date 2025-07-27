@@ -95,7 +95,6 @@ Collections:
 
 ### Next Phase Plan
 - Merge all the scripts together and add automated testcases.
-- Start with Data Quality.
 - Finalize on the visualizations required.
 
 
