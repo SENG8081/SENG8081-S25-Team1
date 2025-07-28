@@ -1,6 +1,6 @@
 ## Data Collection - Canadian Job Market Trends Analysis Project
 
-This folder contains the scripts and automation tools used to prepare datasets for the Canadian Job Market Trends analysis.
+This folder contains the scripts and automation tools used to fetch datasets for the Canadian Job Market Trends analysis.
 
 ### Purpose
 
@@ -10,11 +10,14 @@ This folder contains the scripts and automation tools used to prepare datasets f
 
 ### 🗂️ Contents
 
-Below are the datasets cleaned using *Data_Cleaning_Script.py*:
+Below are the datasets downloaded/fetched using *Data_Collection_Script.py*:
 
-- CLEANED_industry_jobs.zip
-- CLEANED_job_postings.csv
-- CLEANED_labour_force_stats.csv
+- StatCan Labourforce.csv
+- StatCan_bylndustry.csv
+- employment_projections_2024_2033.csv
+- labour market conditions 2021 2023.csv
+- job_postings.zip
+
 
 ### Approaches
 
