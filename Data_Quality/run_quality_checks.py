@@ -1,5 +1,5 @@
 ﻿"""
-run_quality_checks.py - Consolidated Canadian Job Market Data Quality Checker
+run_quality_checks.py - Consolidated Canadian Job Market Data_Quality Checker
 
 Usage:
     python run_quality_checks.py [--json-path PATH] [--output FILE]
@@ -291,7 +291,7 @@ def load_job_data(json_path: Path = None) -> List[Dict[str, Any]]:
     raise FileNotFoundError(f"Could not find job data in: {possible_paths}")
 
 def main():
-    parser = argparse.ArgumentParser(description="Canadian Job Market Data Quality Checker")
+    parser = argparse.ArgumentParser(description="Canadian Job Market Data_Quality Checker")
     parser.add_argument('--json-path', help="Path to JSON input file", default=None)
     parser.add_argument('--output', help="Save JSON report to file", default=None)
     args = parser.parse_args()

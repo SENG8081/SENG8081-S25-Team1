@@ -10,7 +10,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 # Setup Base Folder
-base_dir = os.path.join(os.getcwd(), "Data Collection")
+base_dir = os.path.join(os.getcwd(), "Data_Collection")
 os.makedirs(base_dir, exist_ok=True)
 
 # Labour Force Stats
@@ -124,10 +124,16 @@ def run_api_downloads():
         except Exception as e:
             print(f"Failed to download {res['name']}: {e}")
 
+def run():
+    try:
+        print("Starting full data collection...")
+        run_time_series_download()
+        run_geography_download()
+        run_api_downloads()
+        print("All tasks completed. CSVs are located in:", base_dir)
+    except Exception as e:
+        print(f"Data_Collection_Script.py ERROR: {e}")
+
 # Run All 
 if __name__ == "__main__":
-    print("Starting full data collection...")
-    run_time_series_download()
-    run_geography_download()
-    run_api_downloads()
-    print("All tasks completed. CSVs are located in:", base_dir)
+    run()

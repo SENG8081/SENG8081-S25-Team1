@@ -3,10 +3,10 @@ import os
 import zipfile
 import pandas as pd
 
+
 def clean_csv(filename, output_path=None, zip_csv_name=None, compress=False,
               dropna=False, fillna_method="mean", skip_head=0, skip_tail=0, encoding="latin-1"):
-
-    data_folder = os.path.join("..", "Data Collection")
+    data_folder = os.path.join("..", "Data_Collection")
     file_path = os.path.join(data_folder, filename)
 
     # Determine base name for output
@@ -71,8 +71,7 @@ def clean_csv(filename, output_path=None, zip_csv_name=None, compress=False,
                 else:
                     df[col].fillna("Unknown", inplace=True)
         print("Filled missing values")
-        
-            
+
     # Special cleaning
     if not filename.startswith("StatCan_"):
         existing_cols_to_remove = ['nom_de_la_profession']
@@ -81,7 +80,7 @@ def clean_csv(filename, output_path=None, zip_csv_name=None, compress=False,
             print(f"Removed from {filename}: {existing_cols_to_remove}")
         else:
             print(f"No matching columns to remove from {filename}")
-        
+
         if filename.startswith("labour_market_conditions_"):
             df.drop(df.columns[-1], axis=1, inplace=True)
             print(f"Removed from {filename}: conditions_rÃ©centes_sur_le_marchÃ©_du_travail")
@@ -104,10 +103,10 @@ def clean_csv(filename, output_path=None, zip_csv_name=None, compress=False,
 
     return os.path.abspath(output_path)
 
-# Run cleaning
-if __name__ == "__main__":
+
+def main():
     # Adjust the path as required
-    data_folder = os.path.join("..", "Data Collection")
+    data_folder = os.path.join("..", "Data_Collection")
     files = os.listdir(data_folder)
 
     for f in files:
@@ -125,3 +124,8 @@ if __name__ == "__main__":
                     clean_csv(f, zip_csv_name=inner_csvs[0])
                 else:
                     print(f"Skipped {f}: Contains multiple CSVs or none.")
+
+
+# Run cleaning
+if __name__ == "__main__":
+    main()
