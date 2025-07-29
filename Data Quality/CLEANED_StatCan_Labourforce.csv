@@ -1,0 +1,492 @@
+ref_date,geo,dguid,labour_force_characteristics,gender,age_group,statistics,data_type,uom,uom_id,scalar_factor,scalar_id,vector,coordinate,value,decimals
+2022-12,Canada,2021A000011124,Population,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2062809,1.1.1.1.1.1,32111.8,1
+2022-12,Canada,2021A000011124,Labour force,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2062810,1.2.1.1.1.1,21049.6,1
+2022-12,Canada,2021A000011124,Employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2062811,1.3.1.1.1.1,19998.5,1
+2022-12,Canada,2021A000011124,Full-time employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2062812,1.4.1.1.1.1,16426.8,1
+2022-12,Canada,2021A000011124,Part-time employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2062813,1.5.1.1.1.1,3571.7,1
+2022-12,Canada,2021A000011124,Unemployment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2062814,1.6.1.1.1.1,1051.1,1
+2022-12,Canada,2021A000011124,Unemployment rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2062815,1.7.1.1.1.1,5.0,1
+2022-12,Canada,2021A000011124,Participation rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2062816,1.8.1.1.1.1,65.6,1
+2022-12,Canada,2021A000011124,Employment rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2062817,1.9.1.1.1.1,62.3,1
+2022-12,Newfoundland and Labrador,2021A000210,Population,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2062998,2.1.1.1.1.1,455.6,1
+2022-12,Newfoundland and Labrador,2021A000210,Labour force,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2062999,2.2.1.1.1.1,265.4,1
+2022-12,Newfoundland and Labrador,2021A000210,Employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063000,2.3.1.1.1.1,239.8,1
+2022-12,Newfoundland and Labrador,2021A000210,Full-time employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063001,2.4.1.1.1.1,202.9,1
+2022-12,Newfoundland and Labrador,2021A000210,Part-time employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063002,2.5.1.1.1.1,36.9,1
+2022-12,Newfoundland and Labrador,2021A000210,Unemployment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063003,2.6.1.1.1.1,25.6,1
+2022-12,Newfoundland and Labrador,2021A000210,Unemployment rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2063004,2.7.1.1.1.1,9.6,1
+2022-12,Newfoundland and Labrador,2021A000210,Participation rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2063005,2.8.1.1.1.1,58.3,1
+2022-12,Newfoundland and Labrador,2021A000210,Employment rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2063006,2.9.1.1.1.1,52.6,1
+2022-12,Prince Edward Island,2021A000211,Population,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063187,3.1.1.1.1.1,141.5,1
+2022-12,Prince Edward Island,2021A000211,Labour force,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063188,3.2.1.1.1.1,89.1,1
+2022-12,Prince Edward Island,2021A000211,Employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063189,3.3.1.1.1.1,84.1,1
+2022-12,Prince Edward Island,2021A000211,Full-time employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063190,3.4.1.1.1.1,70.7,1
+2022-12,Prince Edward Island,2021A000211,Part-time employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063191,3.5.1.1.1.1,13.3,1
+2022-12,Prince Edward Island,2021A000211,Unemployment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063192,3.6.1.1.1.1,5.1,1
+2022-12,Prince Edward Island,2021A000211,Unemployment rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2063193,3.7.1.1.1.1,5.7,1
+2022-12,Prince Edward Island,2021A000211,Participation rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2063194,3.8.1.1.1.1,63.0,1
+2022-12,Prince Edward Island,2021A000211,Employment rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2063195,3.9.1.1.1.1,59.4,1
+2022-12,Nova Scotia,2021A000212,Population,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063376,4.1.1.1.1.1,861.7,1
+2022-12,Nova Scotia,2021A000212,Labour force,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063377,4.2.1.1.1.1,534.0,1
+2022-12,Nova Scotia,2021A000212,Employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063378,4.3.1.1.1.1,500.5,1
+2022-12,Nova Scotia,2021A000212,Full-time employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063379,4.4.1.1.1.1,416.8,1
+2022-12,Nova Scotia,2021A000212,Part-time employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063380,4.5.1.1.1.1,83.8,1
+2022-12,Nova Scotia,2021A000212,Unemployment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063381,4.6.1.1.1.1,33.5,1
+2022-12,Nova Scotia,2021A000212,Unemployment rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2063382,4.7.1.1.1.1,6.3,1
+2022-12,Nova Scotia,2021A000212,Participation rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2063383,4.8.1.1.1.1,62.0,1
+2022-12,Nova Scotia,2021A000212,Employment rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2063384,4.9.1.1.1.1,58.1,1
+2022-12,New Brunswick,2021A000213,Population,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063565,5.1.1.1.1.1,676.9,1
+2022-12,New Brunswick,2021A000213,Labour force,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063566,5.2.1.1.1.1,413.1,1
+2022-12,New Brunswick,2021A000213,Employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063567,5.3.1.1.1.1,382.3,1
+2022-12,New Brunswick,2021A000213,Full-time employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063568,5.4.1.1.1.1,323.5,1
+2022-12,New Brunswick,2021A000213,Part-time employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063569,5.5.1.1.1.1,58.8,1
+2022-12,New Brunswick,2021A000213,Unemployment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063570,5.6.1.1.1.1,30.8,1
+2022-12,New Brunswick,2021A000213,Unemployment rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2063571,5.7.1.1.1.1,7.5,1
+2022-12,New Brunswick,2021A000213,Participation rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2063572,5.8.1.1.1.1,61.0,1
+2022-12,New Brunswick,2021A000213,Employment rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2063573,5.9.1.1.1.1,56.5,1
+2022-12,Quebec,2021A000224,Population,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063754,6.1.1.1.1.1,7171.0,1
+2022-12,Quebec,2021A000224,Labour force,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063755,6.2.1.1.1.1,4645.4,1
+2022-12,Quebec,2021A000224,Employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063756,6.3.1.1.1.1,4453.0,1
+2022-12,Quebec,2021A000224,Full-time employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063757,6.4.1.1.1.1,3661.6,1
+2022-12,Quebec,2021A000224,Part-time employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063758,6.5.1.1.1.1,791.4,1
+2022-12,Quebec,2021A000224,Unemployment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063759,6.6.1.1.1.1,192.4,1
+2022-12,Quebec,2021A000224,Unemployment rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2063760,6.7.1.1.1.1,4.1,1
+2022-12,Quebec,2021A000224,Participation rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2063761,6.8.1.1.1.1,64.8,1
+2022-12,Quebec,2021A000224,Employment rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2063762,6.9.1.1.1.1,62.1,1
+2022-12,Ontario,2021A000235,Population,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063943,7.1.1.1.1.1,12688.7,1
+2022-12,Ontario,2021A000235,Labour force,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063944,7.2.1.1.1.1,8303.1,1
+2022-12,Ontario,2021A000235,Employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063945,7.3.1.1.1.1,7864.0,1
+2022-12,Ontario,2021A000235,Full-time employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063946,7.4.1.1.1.1,6516.2,1
+2022-12,Ontario,2021A000235,Part-time employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063947,7.5.1.1.1.1,1347.8,1
+2022-12,Ontario,2021A000235,Unemployment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063948,7.6.1.1.1.1,439.0,1
+2022-12,Ontario,2021A000235,Unemployment rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2063949,7.7.1.1.1.1,5.3,1
+2022-12,Ontario,2021A000235,Participation rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2063950,7.8.1.1.1.1,65.4,1
+2022-12,Ontario,2021A000235,Employment rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2063951,7.9.1.1.1.1,62.0,1
+2022-12,Manitoba,2021A000246,Population,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2064132,8.1.1.1.1.1,1088.6,1
+2022-12,Manitoba,2021A000246,Labour force,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2064133,8.2.1.1.1.1,726.2,1
+2022-12,Manitoba,2021A000246,Employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2064134,8.3.1.1.1.1,693.8,1
+2022-12,Manitoba,2021A000246,Full-time employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2064135,8.4.1.1.1.1,570.2,1
+2022-12,Manitoba,2021A000246,Part-time employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2064136,8.5.1.1.1.1,123.6,1
+2022-12,Manitoba,2021A000246,Unemployment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2064137,8.6.1.1.1.1,32.4,1
+2022-12,Manitoba,2021A000246,Unemployment rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2064138,8.7.1.1.1.1,4.5,1
+2022-12,Manitoba,2021A000246,Participation rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2064139,8.8.1.1.1.1,66.7,1
+2022-12,Manitoba,2021A000246,Employment rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2064140,8.9.1.1.1.1,63.7,1
+2022-12,Saskatchewan,2021A000247,Population,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2064321,9.1.1.1.1.1,903.1,1
+2022-12,Saskatchewan,2021A000247,Labour force,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2064322,9.2.1.1.1.1,605.7,1
+2022-12,Saskatchewan,2021A000247,Employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2064323,9.3.1.1.1.1,579.4,1
+2022-12,Saskatchewan,2021A000247,Full-time employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2064324,9.4.1.1.1.1,470.8,1
+2022-12,Saskatchewan,2021A000247,Part-time employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2064325,9.5.1.1.1.1,108.6,1
+2022-12,Saskatchewan,2021A000247,Unemployment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2064326,9.6.1.1.1.1,26.3,1
+2022-12,Saskatchewan,2021A000247,Unemployment rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2064327,9.7.1.1.1.1,4.3,1
+2022-12,Saskatchewan,2021A000247,Participation rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2064328,9.8.1.1.1.1,67.1,1
+2022-12,Saskatchewan,2021A000247,Employment rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2064329,9.9.1.1.1.1,64.2,1
+2022-12,Alberta,2021A000248,Population,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2064510,10.1.1.1.1.1,3644.0,1
+2022-12,Alberta,2021A000248,Labour force,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2064511,10.2.1.1.1.1,2536.6,1
+2022-12,Alberta,2021A000248,Employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2064512,10.3.1.1.1.1,2393.1,1
+2022-12,Alberta,2021A000248,Full-time employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2064513,10.4.1.1.1.1,1959.3,1
+2022-12,Alberta,2021A000248,Part-time employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2064514,10.5.1.1.1.1,433.8,1
+2022-12,Alberta,2021A000248,Unemployment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2064515,10.6.1.1.1.1,143.5,1
+2022-12,Alberta,2021A000248,Unemployment rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2064516,10.7.1.1.1.1,5.7,1
+2022-12,Alberta,2021A000248,Participation rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2064517,10.8.1.1.1.1,69.6,1
+2022-12,Alberta,2021A000248,Employment rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2064518,10.9.1.1.1.1,65.7,1
+2022-12,British Columbia,2021A000259,Population,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2064699,11.1.1.1.1.1,4480.7,1
+2022-12,British Columbia,2021A000259,Labour force,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2064700,11.2.1.1.1.1,2930.9,1
+2022-12,British Columbia,2021A000259,Employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2064701,11.3.1.1.1.1,2808.4,1
+2022-12,British Columbia,2021A000259,Full-time employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2064702,11.4.1.1.1.1,2234.7,1
+2022-12,British Columbia,2021A000259,Part-time employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2064703,11.5.1.1.1.1,573.7,1
+2022-12,British Columbia,2021A000259,Unemployment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2064704,11.6.1.1.1.1,122.5,1
+2022-12,British Columbia,2021A000259,Unemployment rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2064705,11.7.1.1.1.1,4.2,1
+2022-12,British Columbia,2021A000259,Participation rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2064706,11.8.1.1.1.1,65.4,1
+2022-12,British Columbia,2021A000259,Employment rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2064707,11.9.1.1.1.1,62.7,1
+2023-12,Canada,2021A000011124,Labour force,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2062810,1.2.1.1.1.1,21797.4,1
+2023-12,Canada,2021A000011124,Employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2062811,1.3.1.1.1.1,20532.8,1
+2023-12,Canada,2021A000011124,Full-time employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2062812,1.4.1.1.1.1,16853.6,1
+2023-12,Canada,2021A000011124,Part-time employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2062813,1.5.1.1.1.1,3679.3,1
+2023-12,Canada,2021A000011124,Unemployment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2062814,1.6.1.1.1.1,1264.6,1
+2023-12,Canada,2021A000011124,Unemployment rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2062815,1.7.1.1.1.1,5.8,1
+2023-12,Canada,2021A000011124,Participation rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2062816,1.8.1.1.1.1,65.7,1
+2023-12,Canada,2021A000011124,Employment rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2062817,1.9.1.1.1.1,61.9,1
+2023-12,Newfoundland and Labrador,2021A000210,Population,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2062998,2.1.1.1.1.1,462.8,1
+2023-12,Newfoundland and Labrador,2021A000210,Labour force,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2062999,2.2.1.1.1.1,268.9,1
+2023-12,Newfoundland and Labrador,2021A000210,Employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063000,2.3.1.1.1.1,241.0,1
+2023-12,Newfoundland and Labrador,2021A000210,Full-time employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063001,2.4.1.1.1.1,204.6,1
+2023-12,Newfoundland and Labrador,2021A000210,Part-time employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063002,2.5.1.1.1.1,36.3,1
+2023-12,Newfoundland and Labrador,2021A000210,Unemployment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063003,2.6.1.1.1.1,27.9,1
+2023-12,Newfoundland and Labrador,2021A000210,Unemployment rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2063004,2.7.1.1.1.1,10.4,1
+2023-12,Newfoundland and Labrador,2021A000210,Participation rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2063005,2.8.1.1.1.1,58.1,1
+2023-12,Newfoundland and Labrador,2021A000210,Employment rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2063006,2.9.1.1.1.1,52.1,1
+2023-12,Prince Edward Island,2021A000211,Population,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063187,3.1.1.1.1.1,147.9,1
+2023-12,Prince Edward Island,2021A000211,Labour force,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063188,3.2.1.1.1.1,100.2,1
+2023-12,Prince Edward Island,2021A000211,Employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063189,3.3.1.1.1.1,92.3,1
+2023-12,Prince Edward Island,2021A000211,Full-time employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063190,3.4.1.1.1.1,79.8,1
+2023-12,Prince Edward Island,2021A000211,Part-time employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063191,3.5.1.1.1.1,12.6,1
+2023-12,Prince Edward Island,2021A000211,Unemployment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063192,3.6.1.1.1.1,7.9,1
+2023-12,Prince Edward Island,2021A000211,Unemployment rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2063193,3.7.1.1.1.1,7.9,1
+2023-12,Prince Edward Island,2021A000211,Participation rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2063194,3.8.1.1.1.1,67.7,1
+2023-12,Prince Edward Island,2021A000211,Employment rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2063195,3.9.1.1.1.1,62.4,1
+2023-12,Nova Scotia,2021A000212,Population,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063376,4.1.1.1.1.1,888.4,1
+2023-12,Nova Scotia,2021A000212,Labour force,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063377,4.2.1.1.1.1,549.4,1
+2023-12,Nova Scotia,2021A000212,Employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063378,4.3.1.1.1.1,516.6,1
+2023-12,Nova Scotia,2021A000212,Full-time employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063379,4.4.1.1.1.1,424.5,1
+2023-12,Nova Scotia,2021A000212,Part-time employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063380,4.5.1.1.1.1,92.0,1
+2023-12,Nova Scotia,2021A000212,Unemployment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063381,4.6.1.1.1.1,32.8,1
+2023-12,Nova Scotia,2021A000212,Unemployment rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2063382,4.7.1.1.1.1,6.0,1
+2023-12,Nova Scotia,2021A000212,Participation rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2063383,4.8.1.1.1.1,61.8,1
+2023-12,Nova Scotia,2021A000212,Employment rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2063384,4.9.1.1.1.1,58.1,1
+2023-12,New Brunswick,2021A000213,Population,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063565,5.1.1.1.1.1,698.0,1
+2023-12,New Brunswick,2021A000213,Labour force,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063566,5.2.1.1.1.1,420.8,1
+2023-12,New Brunswick,2021A000213,Employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063567,5.3.1.1.1.1,393.5,1
+2023-12,New Brunswick,2021A000213,Full-time employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063568,5.4.1.1.1.1,337.7,1
+2023-12,New Brunswick,2021A000213,Part-time employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063569,5.5.1.1.1.1,55.8,1
+2023-12,New Brunswick,2021A000213,Unemployment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063570,5.6.1.1.1.1,27.3,1
+2023-12,New Brunswick,2021A000213,Unemployment rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2063571,5.7.1.1.1.1,6.5,1
+2023-12,New Brunswick,2021A000213,Participation rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2063572,5.8.1.1.1.1,60.3,1
+2023-12,New Brunswick,2021A000213,Employment rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2063573,5.9.1.1.1.1,56.4,1
+2023-12,Quebec,2021A000224,Population,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063754,6.1.1.1.1.1,7327.5,1
+2023-12,Quebec,2021A000224,Labour force,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063755,6.2.1.1.1.1,4774.3,1
+2023-12,Quebec,2021A000224,Employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063756,6.3.1.1.1.1,4548.0,1
+2023-12,Quebec,2021A000224,Full-time employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063757,6.4.1.1.1.1,3686.6,1
+2023-12,Quebec,2021A000224,Part-time employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063758,6.5.1.1.1.1,861.4,1
+2023-12,Quebec,2021A000224,Unemployment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063759,6.6.1.1.1.1,226.3,1
+2023-12,Quebec,2021A000224,Unemployment rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2063760,6.7.1.1.1.1,4.7,1
+2023-12,Quebec,2021A000224,Participation rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2063761,6.8.1.1.1.1,65.2,1
+2023-12,Quebec,2021A000224,Employment rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2063762,6.9.1.1.1.1,62.1,1
+2023-12,Ontario,2021A000235,Population,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063943,7.1.1.1.1.1,13142.0,1
+2023-12,Ontario,2021A000235,Labour force,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063944,7.2.1.1.1.1,8574.3,1
+2023-12,Ontario,2021A000235,Employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063945,7.3.1.1.1.1,8036.6,1
+2023-12,Ontario,2021A000235,Full-time employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063946,7.4.1.1.1.1,6679.8,1
+2023-12,Ontario,2021A000235,Part-time employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063947,7.5.1.1.1.1,1356.8,1
+2023-12,Ontario,2021A000235,Unemployment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063948,7.6.1.1.1.1,537.7,1
+2023-12,Ontario,2021A000235,Unemployment rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2063949,7.7.1.1.1.1,6.3,1
+2023-12,Ontario,2021A000235,Participation rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2063950,7.8.1.1.1.1,65.2,1
+2023-12,Ontario,2021A000235,Employment rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2063951,7.9.1.1.1.1,61.2,1
+2023-12,Manitoba,2021A000246,Population,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2064132,8.1.1.1.1.1,1123.9,1
+2023-12,Manitoba,2021A000246,Labour force,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2064133,8.2.1.1.1.1,747.7,1
+2023-12,Manitoba,2021A000246,Employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2064134,8.3.1.1.1.1,715.5,1
+2023-12,Manitoba,2021A000246,Full-time employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2064135,8.4.1.1.1.1,587.3,1
+2023-12,Manitoba,2021A000246,Part-time employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2064136,8.5.1.1.1.1,128.2,1
+2023-12,Manitoba,2021A000246,Unemployment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2064137,8.6.1.1.1.1,32.2,1
+2023-12,Manitoba,2021A000246,Unemployment rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2064138,8.7.1.1.1.1,4.3,1
+2023-12,Manitoba,2021A000246,Participation rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2064139,8.8.1.1.1.1,66.5,1
+2023-12,Manitoba,2021A000246,Employment rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2064140,8.9.1.1.1.1,63.7,1
+2023-12,Saskatchewan,2021A000247,Population,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2064321,9.1.1.1.1.1,928.8,1
+2023-12,Saskatchewan,2021A000247,Labour force,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2064322,9.2.1.1.1.1,633.5,1
+2023-12,Saskatchewan,2021A000247,Employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2064323,9.3.1.1.1.1,601.9,1
+2023-12,Saskatchewan,2021A000247,Full-time employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2064324,9.4.1.1.1.1,497.0,1
+2023-12,Saskatchewan,2021A000247,Part-time employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2064325,9.5.1.1.1.1,104.9,1
+2023-12,Saskatchewan,2021A000247,Unemployment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2064326,9.6.1.1.1.1,31.6,1
+2023-12,Saskatchewan,2021A000247,Unemployment rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2064327,9.7.1.1.1.1,5.0,1
+2023-12,Saskatchewan,2021A000247,Participation rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2064328,9.8.1.1.1.1,68.2,1
+2023-12,Saskatchewan,2021A000247,Employment rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2064329,9.9.1.1.1.1,64.8,1
+2023-12,Alberta,2021A000248,Population,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2064510,10.1.1.1.1.1,3811.4,1
+2023-12,Alberta,2021A000248,Labour force,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2064511,10.2.1.1.1.1,2655.5,1
+2023-12,Alberta,2021A000248,Employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2064512,10.3.1.1.1.1,2486.9,1
+2023-12,Alberta,2021A000248,Full-time employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2064513,10.4.1.1.1.1,2019.0,1
+2023-12,Alberta,2021A000248,Part-time employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2064514,10.5.1.1.1.1,467.9,1
+2023-12,Alberta,2021A000248,Unemployment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2064515,10.6.1.1.1.1,168.5,1
+2023-12,Alberta,2021A000248,Unemployment rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2064516,10.7.1.1.1.1,6.3,1
+2023-12,Alberta,2021A000248,Participation rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2064517,10.8.1.1.1.1,69.7,1
+2023-12,Alberta,2021A000248,Employment rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2064518,10.9.1.1.1.1,65.2,1
+2023-12,British Columbia,2021A000259,Population,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2064699,11.1.1.1.1.1,4637.8,1
+2023-12,British Columbia,2021A000259,Labour force,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2064700,11.2.1.1.1.1,3072.9,1
+2023-12,British Columbia,2021A000259,Employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2064701,11.3.1.1.1.1,2900.5,1
+2023-12,British Columbia,2021A000259,Full-time employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2064702,11.4.1.1.1.1,2337.2,1
+2023-12,British Columbia,2021A000259,Part-time employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2064703,11.5.1.1.1.1,563.3,1
+2023-12,British Columbia,2021A000259,Unemployment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2064704,11.6.1.1.1.1,172.4,1
+2023-12,British Columbia,2021A000259,Unemployment rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2064705,11.7.1.1.1.1,5.6,1
+2023-12,British Columbia,2021A000259,Participation rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2064706,11.8.1.1.1.1,66.3,1
+2023-12,British Columbia,2021A000259,Employment rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2064707,11.9.1.1.1.1,62.5,1
+2024-12,Canada,2021A000011124,Labour force,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2062810,1.2.1.1.1.1,22422.8,1
+2024-12,Canada,2021A000011124,Employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2062811,1.3.1.1.1.1,20917.4,1
+2024-12,Canada,2021A000011124,Full-time employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2062812,1.4.1.1.1.1,17150.7,1
+2024-12,Canada,2021A000011124,Part-time employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2062813,1.5.1.1.1.1,3766.6,1
+2024-12,Canada,2021A000011124,Unemployment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2062814,1.6.1.1.1.1,1505.5,1
+2024-12,Canada,2021A000011124,Unemployment rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2062815,1.7.1.1.1.1,6.7,1
+2024-12,Canada,2021A000011124,Participation rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2062816,1.8.1.1.1.1,65.4,1
+2024-12,Canada,2021A000011124,Employment rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2062817,1.9.1.1.1.1,61.0,1
+2024-12,Newfoundland and Labrador,2021A000210,Population,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2062998,2.1.1.1.1.1,469.3,1
+2024-12,Newfoundland and Labrador,2021A000210,Labour force,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2062999,2.2.1.1.1.1,271.7,1
+2024-12,Newfoundland and Labrador,2021A000210,Employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063000,2.3.1.1.1.1,243.2,1
+2024-12,Newfoundland and Labrador,2021A000210,Full-time employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063001,2.4.1.1.1.1,208.5,1
+2024-12,Newfoundland and Labrador,2021A000210,Part-time employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063002,2.5.1.1.1.1,34.7,1
+2024-12,Newfoundland and Labrador,2021A000210,Unemployment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063003,2.6.1.1.1.1,28.5,1
+2024-12,Newfoundland and Labrador,2021A000210,Unemployment rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2063004,2.7.1.1.1.1,10.5,1
+2024-12,Newfoundland and Labrador,2021A000210,Participation rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2063005,2.8.1.1.1.1,57.9,1
+2024-12,Newfoundland and Labrador,2021A000210,Employment rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2063006,2.9.1.1.1.1,51.8,1
+2024-12,Prince Edward Island,2021A000211,Population,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063187,3.1.1.1.1.1,152.4,1
+2024-12,Prince Edward Island,2021A000211,Labour force,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063188,3.2.1.1.1.1,103.4,1
+2024-12,Prince Edward Island,2021A000211,Employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063189,3.3.1.1.1.1,94.6,1
+2024-12,Prince Edward Island,2021A000211,Full-time employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063190,3.4.1.1.1.1,78.8,1
+2024-12,Prince Edward Island,2021A000211,Part-time employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063191,3.5.1.1.1.1,15.8,1
+2024-12,Prince Edward Island,2021A000211,Unemployment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063192,3.6.1.1.1.1,8.8,1
+2024-12,Prince Edward Island,2021A000211,Unemployment rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2063193,3.7.1.1.1.1,8.5,1
+2024-12,Prince Edward Island,2021A000211,Participation rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2063194,3.8.1.1.1.1,67.8,1
+2024-12,Prince Edward Island,2021A000211,Employment rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2063195,3.9.1.1.1.1,62.1,1
+2024-12,Nova Scotia,2021A000212,Population,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063376,4.1.1.1.1.1,909.4,1
+2024-12,Nova Scotia,2021A000212,Labour force,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063377,4.2.1.1.1.1,563.1,1
+2024-12,Nova Scotia,2021A000212,Employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063378,4.3.1.1.1.1,527.7,1
+2024-12,Nova Scotia,2021A000212,Full-time employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063379,4.4.1.1.1.1,439.8,1
+2024-12,Nova Scotia,2021A000212,Part-time employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063380,4.5.1.1.1.1,87.8,1
+2024-12,Nova Scotia,2021A000212,Unemployment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063381,4.6.1.1.1.1,35.4,1
+2024-12,Nova Scotia,2021A000212,Unemployment rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2063382,4.7.1.1.1.1,6.3,1
+2024-12,Nova Scotia,2021A000212,Participation rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2063383,4.8.1.1.1.1,61.9,1
+2024-12,Nova Scotia,2021A000212,Employment rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2063384,4.9.1.1.1.1,58.0,1
+2024-12,New Brunswick,2021A000213,Population,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063565,5.1.1.1.1.1,716.7,1
+2024-12,New Brunswick,2021A000213,Labour force,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063566,5.2.1.1.1.1,433.2,1
+2024-12,New Brunswick,2021A000213,Employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063567,5.3.1.1.1.1,400.0,1
+2024-12,New Brunswick,2021A000213,Full-time employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063568,5.4.1.1.1.1,336.8,1
+2024-12,New Brunswick,2021A000213,Part-time employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063569,5.5.1.1.1.1,63.2,1
+2024-12,New Brunswick,2021A000213,Unemployment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063570,5.6.1.1.1.1,33.2,1
+2024-12,New Brunswick,2021A000213,Unemployment rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2063571,5.7.1.1.1.1,7.7,1
+2024-12,New Brunswick,2021A000213,Participation rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2063572,5.8.1.1.1.1,60.4,1
+2024-12,New Brunswick,2021A000213,Employment rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2063573,5.9.1.1.1.1,55.8,1
+2024-12,Quebec,2021A000224,Population,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063754,6.1.1.1.1.1,7522.8,1
+2024-12,Quebec,2021A000224,Labour force,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063755,6.2.1.1.1.1,4893.9,1
+2024-12,Quebec,2021A000224,Employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063756,6.3.1.1.1.1,4619.9,1
+2024-12,Quebec,2021A000224,Full-time employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063757,6.4.1.1.1.1,3801.5,1
+2024-12,Quebec,2021A000224,Part-time employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063758,6.5.1.1.1.1,818.4,1
+2024-12,Quebec,2021A000224,Unemployment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063759,6.6.1.1.1.1,274.0,1
+2024-12,Quebec,2021A000224,Unemployment rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2063760,6.7.1.1.1.1,5.6,1
+2024-12,Quebec,2021A000224,Participation rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2063761,6.8.1.1.1.1,65.1,1
+2024-12,Quebec,2021A000224,Employment rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2063762,6.9.1.1.1.1,61.4,1
+2024-12,Ontario,2021A000235,Population,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063943,7.1.1.1.1.1,13605.1,1
+2024-12,Ontario,2021A000235,Labour force,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063944,7.2.1.1.1.1,8870.0,1
+2024-12,Ontario,2021A000235,Employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063945,7.3.1.1.1.1,8201.4,1
+2024-12,Ontario,2021A000235,Full-time employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063946,7.4.1.1.1.1,6743.7,1
+2024-12,Ontario,2021A000235,Part-time employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063947,7.5.1.1.1.1,1457.8,1
+2024-12,Ontario,2021A000235,Unemployment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063948,7.6.1.1.1.1,668.5,1
+2024-12,Ontario,2021A000235,Unemployment rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2063949,7.7.1.1.1.1,7.5,1
+2024-12,Ontario,2021A000235,Participation rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2063950,7.8.1.1.1.1,65.2,1
+2024-12,Ontario,2021A000235,Employment rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2063951,7.9.1.1.1.1,60.3,1
+2024-12,Manitoba,2021A000246,Population,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2064132,8.1.1.1.1.1,1163.0,1
+2024-12,Manitoba,2021A000246,Labour force,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2064133,8.2.1.1.1.1,777.6,1
+2024-12,Manitoba,2021A000246,Employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2064134,8.3.1.1.1.1,729.1,1
+2024-12,Manitoba,2021A000246,Full-time employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2064135,8.4.1.1.1.1,598.6,1
+2024-12,Manitoba,2021A000246,Part-time employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2064136,8.5.1.1.1.1,130.5,1
+2024-12,Manitoba,2021A000246,Unemployment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2064137,8.6.1.1.1.1,48.5,1
+2024-12,Manitoba,2021A000246,Unemployment rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2064138,8.7.1.1.1.1,6.2,1
+2024-12,Manitoba,2021A000246,Participation rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2064139,8.8.1.1.1.1,66.9,1
+2024-12,Manitoba,2021A000246,Employment rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2064140,8.9.1.1.1.1,62.7,1
+2024-12,Saskatchewan,2021A000247,Population,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2064321,9.1.1.1.1.1,956.6,1
+2024-12,Saskatchewan,2021A000247,Labour force,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2064322,9.2.1.1.1.1,647.0,1
+2024-12,Saskatchewan,2021A000247,Employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2064323,9.3.1.1.1.1,608.2,1
+2024-12,Saskatchewan,2021A000247,Full-time employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2064324,9.4.1.1.1.1,500.9,1
+2024-12,Saskatchewan,2021A000247,Part-time employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2064325,9.5.1.1.1.1,107.2,1
+2024-12,Saskatchewan,2021A000247,Unemployment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2064326,9.6.1.1.1.1,38.8,1
+2024-12,Saskatchewan,2021A000247,Unemployment rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2064327,9.7.1.1.1.1,6.0,1
+2024-12,Saskatchewan,2021A000247,Participation rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2064328,9.8.1.1.1.1,67.6,1
+2024-12,Saskatchewan,2021A000247,Employment rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2064329,9.9.1.1.1.1,63.6,1
+2024-12,Alberta,2021A000248,Population,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2064510,10.1.1.1.1.1,3991.4,1
+2024-12,Alberta,2021A000248,Labour force,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2064511,10.2.1.1.1.1,2758.5,1
+2024-12,Alberta,2021A000248,Employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2064512,10.3.1.1.1.1,2572.7,1
+2024-12,Alberta,2021A000248,Full-time employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2064513,10.4.1.1.1.1,2120.4,1
+2024-12,Alberta,2021A000248,Part-time employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2064514,10.5.1.1.1.1,452.3,1
+2024-12,Alberta,2021A000248,Unemployment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2064515,10.6.1.1.1.1,185.8,1
+2024-12,Alberta,2021A000248,Unemployment rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2064516,10.7.1.1.1.1,6.7,1
+2024-12,Alberta,2021A000248,Participation rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2064517,10.8.1.1.1.1,69.1,1
+2024-12,Alberta,2021A000248,Employment rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2064518,10.9.1.1.1.1,64.5,1
+2024-12,British Columbia,2021A000259,Population,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2064699,11.1.1.1.1.1,4798.3,1
+2024-12,British Columbia,2021A000259,Labour force,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2064700,11.2.1.1.1.1,3104.5,1
+2024-12,British Columbia,2021A000259,Employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2064701,11.3.1.1.1.1,2920.6,1
+2024-12,British Columbia,2021A000259,Full-time employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2064702,11.4.1.1.1.1,2321.7,1
+2024-12,British Columbia,2021A000259,Part-time employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2064703,11.5.1.1.1.1,598.9,1
+2024-12,British Columbia,2021A000259,Unemployment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2064704,11.6.1.1.1.1,183.9,1
+2024-12,British Columbia,2021A000259,Unemployment rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2064705,11.7.1.1.1.1,5.9,1
+2024-12,British Columbia,2021A000259,Participation rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2064706,11.8.1.1.1.1,64.7,1
+2024-12,British Columbia,2021A000259,Employment rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2064707,11.9.1.1.1.1,60.9,1
+2025-06,Canada,2021A000011124,Labour force,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2062810,1.2.1.1.1.1,22613.7,1
+2025-06,Canada,2021A000011124,Employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2062811,1.3.1.1.1.1,21061.2,1
+2025-06,Canada,2021A000011124,Full-time employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2062812,1.4.1.1.1.1,17206.9,1
+2025-06,Canada,2021A000011124,Part-time employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2062813,1.5.1.1.1.1,3854.3,1
+2025-06,Canada,2021A000011124,Unemployment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2062814,1.6.1.1.1.1,1552.5,1
+2025-06,Canada,2021A000011124,Unemployment rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2062815,1.7.1.1.1.1,6.9,1
+2025-06,Canada,2021A000011124,Participation rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2062816,1.8.1.1.1.1,65.4,1
+2025-06,Canada,2021A000011124,Employment rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2062817,1.9.1.1.1.1,60.9,1
+2025-06,Newfoundland and Labrador,2021A000210,Population,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2062998,2.1.1.1.1.1,471.1,1
+2025-06,Newfoundland and Labrador,2021A000210,Labour force,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2062999,2.2.1.1.1.1,272.0,1
+2025-06,Newfoundland and Labrador,2021A000210,Employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063000,2.3.1.1.1.1,245.0,1
+2025-06,Newfoundland and Labrador,2021A000210,Full-time employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063001,2.4.1.1.1.1,207.9,1
+2025-06,Newfoundland and Labrador,2021A000210,Part-time employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063002,2.5.1.1.1.1,37.1,1
+2025-06,Newfoundland and Labrador,2021A000210,Unemployment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063003,2.6.1.1.1.1,27.0,1
+2025-06,Newfoundland and Labrador,2021A000210,Unemployment rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2063004,2.7.1.1.1.1,9.9,1
+2025-06,Newfoundland and Labrador,2021A000210,Participation rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2063005,2.8.1.1.1.1,57.7,1
+2025-06,Newfoundland and Labrador,2021A000210,Employment rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2063006,2.9.1.1.1.1,52.0,1
+2025-06,Prince Edward Island,2021A000211,Population,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063187,3.1.1.1.1.1,154.0,1
+2025-06,Prince Edward Island,2021A000211,Labour force,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063188,3.2.1.1.1.1,100.4,1
+2025-06,Prince Edward Island,2021A000211,Employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063189,3.3.1.1.1.1,91.8,1
+2025-06,Prince Edward Island,2021A000211,Full-time employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063190,3.4.1.1.1.1,80.5,1
+2025-06,Prince Edward Island,2021A000211,Part-time employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063191,3.5.1.1.1.1,11.3,1
+2025-06,Prince Edward Island,2021A000211,Unemployment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063192,3.6.1.1.1.1,8.6,1
+2025-06,Prince Edward Island,2021A000211,Unemployment rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2063193,3.7.1.1.1.1,8.6,1
+2025-06,Prince Edward Island,2021A000211,Participation rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2063194,3.8.1.1.1.1,65.2,1
+2025-06,Prince Edward Island,2021A000211,Employment rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2063195,3.9.1.1.1.1,59.6,1
+2025-06,Nova Scotia,2021A000212,Population,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063376,4.1.1.1.1.1,913.2,1
+2025-06,Nova Scotia,2021A000212,Labour force,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063377,4.2.1.1.1.1,561.2,1
+2025-06,Nova Scotia,2021A000212,Employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063378,4.3.1.1.1.1,523.6,1
+2025-06,Nova Scotia,2021A000212,Full-time employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063379,4.4.1.1.1.1,437.2,1
+2025-06,Nova Scotia,2021A000212,Part-time employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063380,4.5.1.1.1.1,86.4,1
+2025-06,Nova Scotia,2021A000212,Unemployment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063381,4.6.1.1.1.1,37.6,1
+2025-06,Nova Scotia,2021A000212,Unemployment rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2063382,4.7.1.1.1.1,6.7,1
+2025-06,Nova Scotia,2021A000212,Participation rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2063383,4.8.1.1.1.1,61.5,1
+2025-06,Nova Scotia,2021A000212,Employment rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2063384,4.9.1.1.1.1,57.3,1
+2025-06,New Brunswick,2021A000213,Population,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063565,5.1.1.1.1.1,720.5,1
+2025-06,New Brunswick,2021A000213,Labour force,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063566,5.2.1.1.1.1,438.9,1
+2025-06,New Brunswick,2021A000213,Employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063567,5.3.1.1.1.1,406.8,1
+2025-06,New Brunswick,2021A000213,Full-time employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063568,5.4.1.1.1.1,347.5,1
+2025-06,New Brunswick,2021A000213,Part-time employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063569,5.5.1.1.1.1,59.3,1
+2025-06,New Brunswick,2021A000213,Unemployment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063570,5.6.1.1.1.1,32.1,1
+2025-06,New Brunswick,2021A000213,Unemployment rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2063571,5.7.1.1.1.1,7.3,1
+2025-06,New Brunswick,2021A000213,Participation rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2063572,5.8.1.1.1.1,60.9,1
+2025-06,New Brunswick,2021A000213,Employment rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2063573,5.9.1.1.1.1,56.5,1
+2025-06,Quebec,2021A000224,Population,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063754,6.1.1.1.1.1,7584.3,1
+2025-06,Quebec,2021A000224,Labour force,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063755,6.2.1.1.1.1,4962.3,1
+2025-06,Quebec,2021A000224,Employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063756,6.3.1.1.1.1,4652.0,1
+2025-06,Quebec,2021A000224,Full-time employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063757,6.4.1.1.1.1,3786.0,1
+2025-06,Quebec,2021A000224,Part-time employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063758,6.5.1.1.1.1,866.0,1
+2025-06,Quebec,2021A000224,Unemployment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063759,6.6.1.1.1.1,310.3,1
+2025-06,Quebec,2021A000224,Unemployment rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2063760,6.7.1.1.1.1,6.3,1
+2025-06,Quebec,2021A000224,Participation rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2063761,6.8.1.1.1.1,65.4,1
+2025-06,Quebec,2021A000224,Employment rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2063762,6.9.1.1.1.1,61.3,1
+2025-06,Ontario,2021A000235,Population,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063943,7.1.1.1.1.1,13705.6,1
+2025-06,Ontario,2021A000235,Labour force,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063944,7.2.1.1.1.1,8915.1,1
+2025-06,Ontario,2021A000235,Employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063945,7.3.1.1.1.1,8219.8,1
+2025-06,Ontario,2021A000235,Full-time employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063946,7.4.1.1.1.1,6701.2,1
+2025-06,Ontario,2021A000235,Part-time employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063947,7.5.1.1.1.1,1518.6,1
+2025-06,Ontario,2021A000235,Unemployment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063948,7.6.1.1.1.1,695.3,1
+2025-06,Ontario,2021A000235,Unemployment rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2063949,7.7.1.1.1.1,7.8,1
+2025-06,Ontario,2021A000235,Participation rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2063950,7.8.1.1.1.1,65.0,1
+2025-06,Ontario,2021A000235,Employment rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2063951,7.9.1.1.1.1,60.0,1
+2025-06,Manitoba,2021A000246,Population,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2064132,8.1.1.1.1.1,1174.2,1
+2025-06,Manitoba,2021A000246,Labour force,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2064133,8.2.1.1.1.1,782.1,1
+2025-06,Manitoba,2021A000246,Employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2064134,8.3.1.1.1.1,739.3,1
+2025-06,Manitoba,2021A000246,Full-time employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2064135,8.4.1.1.1.1,609.3,1
+2025-06,Manitoba,2021A000246,Part-time employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2064136,8.5.1.1.1.1,130.0,1
+2025-06,Manitoba,2021A000246,Unemployment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2064137,8.6.1.1.1.1,42.8,1
+2025-06,Manitoba,2021A000246,Unemployment rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2064138,8.7.1.1.1.1,5.5,1
+2025-06,Manitoba,2021A000246,Participation rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2064139,8.8.1.1.1.1,66.6,1
+2025-06,Manitoba,2021A000246,Employment rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2064140,8.9.1.1.1.1,63.0,1
+2025-06,Saskatchewan,2021A000247,Population,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2064321,9.1.1.1.1.1,965.6,1
+2025-06,Saskatchewan,2021A000247,Labour force,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2064322,9.2.1.1.1.1,651.6,1
+2025-06,Saskatchewan,2021A000247,Employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2064323,9.3.1.1.1.1,619.9,1
+2025-06,Saskatchewan,2021A000247,Full-time employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2064324,9.4.1.1.1.1,516.7,1
+2025-06,Saskatchewan,2021A000247,Part-time employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2064325,9.5.1.1.1.1,103.2,1
+2025-06,Saskatchewan,2021A000247,Unemployment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2064326,9.6.1.1.1.1,31.7,1
+2025-06,Saskatchewan,2021A000247,Unemployment rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2064327,9.7.1.1.1.1,4.9,1
+2025-06,Saskatchewan,2021A000247,Participation rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2064328,9.8.1.1.1.1,67.5,1
+2025-06,Saskatchewan,2021A000247,Employment rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2064329,9.9.1.1.1.1,64.2,1
+2025-06,Alberta,2021A000248,Population,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2064510,10.1.1.1.1.1,4051.6,1
+2025-06,Alberta,2021A000248,Labour force,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2064511,10.2.1.1.1.1,2783.8,1
+2025-06,Alberta,2021A000248,Employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2064512,10.3.1.1.1.1,2594.1,1
+2025-06,Alberta,2021A000248,Full-time employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2064513,10.4.1.1.1.1,2148.2,1
+2025-06,Alberta,2021A000248,Part-time employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2064514,10.5.1.1.1.1,445.9,1
+2025-06,Alberta,2021A000248,Unemployment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2064515,10.6.1.1.1.1,189.6,1
+2025-06,Alberta,2021A000248,Unemployment rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2064516,10.7.1.1.1.1,6.8,1
+2025-06,Alberta,2021A000248,Participation rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2064517,10.8.1.1.1.1,68.7,1
+2025-06,Alberta,2021A000248,Employment rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2064518,10.9.1.1.1.1,64.0,1
+2025-06,British Columbia,2021A000259,Population,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2064699,11.1.1.1.1.1,4837.2,1
+2025-06,British Columbia,2021A000259,Labour force,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2064700,11.2.1.1.1.1,3146.3,1
+2025-06,British Columbia,2021A000259,Employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2064701,11.3.1.1.1.1,2968.9,1
+2025-06,British Columbia,2021A000259,Full-time employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2064702,11.4.1.1.1.1,2372.4,1
+2025-06,British Columbia,2021A000259,Part-time employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2064703,11.5.1.1.1.1,596.5,1
+2025-06,British Columbia,2021A000259,Unemployment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2064704,11.6.1.1.1.1,177.5,1
+2025-06,British Columbia,2021A000259,Unemployment rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2064705,11.7.1.1.1.1,5.6,1
+2025-06,British Columbia,2021A000259,Participation rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2064706,11.8.1.1.1.1,65.0,1
+2025-06,British Columbia,2021A000259,Employment rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2064707,11.9.1.1.1.1,61.4,1
+2021-12,Canada,2021A000011124,Labour force,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2062810,1.2.1.1.1.1,20741.2,1
+2021-12,Canada,2021A000011124,Employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2062811,1.3.1.1.1.1,19508.8,1
+2021-12,Canada,2021A000011124,Full-time employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2062812,1.4.1.1.1.1,15920.8,1
+2021-12,Canada,2021A000011124,Part-time employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2062813,1.5.1.1.1.1,3588.0,1
+2021-12,Canada,2021A000011124,Unemployment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2062814,1.6.1.1.1.1,1232.4,1
+2021-12,Canada,2021A000011124,Unemployment rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2062815,1.7.1.1.1.1,5.9,1
+2021-12,Canada,2021A000011124,Participation rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2062816,1.8.1.1.1.1,65.8,1
+2021-12,Canada,2021A000011124,Employment rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2062817,1.9.1.1.1.1,61.9,1
+2021-12,Newfoundland and Labrador,2021A000210,Population,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2062998,2.1.1.1.1.1,450.9,1
+2021-12,Newfoundland and Labrador,2021A000210,Labour force,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2062999,2.2.1.1.1.1,259.5,1
+2021-12,Newfoundland and Labrador,2021A000210,Employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063000,2.3.1.1.1.1,228.2,1
+2021-12,Newfoundland and Labrador,2021A000210,Full-time employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063001,2.4.1.1.1.1,197.1,1
+2021-12,Newfoundland and Labrador,2021A000210,Part-time employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063002,2.5.1.1.1.1,31.1,1
+2021-12,Newfoundland and Labrador,2021A000210,Unemployment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063003,2.6.1.1.1.1,31.3,1
+2021-12,Newfoundland and Labrador,2021A000210,Unemployment rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2063004,2.7.1.1.1.1,12.1,1
+2021-12,Newfoundland and Labrador,2021A000210,Participation rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2063005,2.8.1.1.1.1,57.6,1
+2021-12,Newfoundland and Labrador,2021A000210,Employment rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2063006,2.9.1.1.1.1,50.6,1
+2021-12,Prince Edward Island,2021A000211,Population,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063187,3.1.1.1.1.1,137.1,1
+2021-12,Prince Edward Island,2021A000211,Labour force,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063188,3.2.1.1.1.1,91.9,1
+2021-12,Prince Edward Island,2021A000211,Employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063189,3.3.1.1.1.1,84.2,1
+2021-12,Prince Edward Island,2021A000211,Full-time employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063190,3.4.1.1.1.1,69.2,1
+2021-12,Prince Edward Island,2021A000211,Part-time employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063191,3.5.1.1.1.1,15.0,1
+2021-12,Prince Edward Island,2021A000211,Unemployment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063192,3.6.1.1.1.1,7.8,1
+2021-12,Prince Edward Island,2021A000211,Unemployment rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2063193,3.7.1.1.1.1,8.5,1
+2021-12,Prince Edward Island,2021A000211,Participation rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2063194,3.8.1.1.1.1,67.0,1
+2021-12,Prince Edward Island,2021A000211,Employment rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2063195,3.9.1.1.1.1,61.4,1
+2021-12,Nova Scotia,2021A000212,Population,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063376,4.1.1.1.1.1,840.4,1
+2021-12,Nova Scotia,2021A000212,Labour force,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063377,4.2.1.1.1.1,521.3,1
+2021-12,Nova Scotia,2021A000212,Employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063378,4.3.1.1.1.1,482.1,1
+2021-12,Nova Scotia,2021A000212,Full-time employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063379,4.4.1.1.1.1,397.8,1
+2021-12,Nova Scotia,2021A000212,Part-time employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063380,4.5.1.1.1.1,84.3,1
+2021-12,Nova Scotia,2021A000212,Unemployment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063381,4.6.1.1.1.1,39.2,1
+2021-12,Nova Scotia,2021A000212,Unemployment rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2063382,4.7.1.1.1.1,7.5,1
+2021-12,Nova Scotia,2021A000212,Participation rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2063383,4.8.1.1.1.1,62.0,1
+2021-12,Nova Scotia,2021A000212,Employment rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2063384,4.9.1.1.1.1,57.4,1
+2021-12,New Brunswick,2021A000213,Population,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063565,5.1.1.1.1.1,659.5,1
+2021-12,New Brunswick,2021A000213,Labour force,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063566,5.2.1.1.1.1,398.7,1
+2021-12,New Brunswick,2021A000213,Employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063567,5.3.1.1.1.1,368.5,1
+2021-12,New Brunswick,2021A000213,Full-time employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063568,5.4.1.1.1.1,316.3,1
+2021-12,New Brunswick,2021A000213,Part-time employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063569,5.5.1.1.1.1,52.2,1
+2021-12,New Brunswick,2021A000213,Unemployment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063570,5.6.1.1.1.1,30.2,1
+2021-12,New Brunswick,2021A000213,Unemployment rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2063571,5.7.1.1.1.1,7.6,1
+2021-12,New Brunswick,2021A000213,Participation rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2063572,5.8.1.1.1.1,60.5,1
+2021-12,New Brunswick,2021A000213,Employment rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2063573,5.9.1.1.1.1,55.9,1
+2021-12,Quebec,2021A000224,Population,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063754,6.1.1.1.1.1,7084.0,1
+2021-12,Quebec,2021A000224,Labour force,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063755,6.2.1.1.1.1,4565.0,1
+2021-12,Quebec,2021A000224,Employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063756,6.3.1.1.1.1,4354.2,1
+2021-12,Quebec,2021A000224,Full-time employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063757,6.4.1.1.1.1,3566.6,1
+2021-12,Quebec,2021A000224,Part-time employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063758,6.5.1.1.1.1,787.6,1
+2021-12,Quebec,2021A000224,Unemployment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063759,6.6.1.1.1.1,210.8,1
+2021-12,Quebec,2021A000224,Unemployment rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2063760,6.7.1.1.1.1,4.6,1
+2021-12,Quebec,2021A000224,Participation rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2063761,6.8.1.1.1.1,64.4,1
+2021-12,Quebec,2021A000224,Employment rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2063762,6.9.1.1.1.1,61.5,1
+2021-12,Ontario,2021A000235,Population,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063943,7.1.1.1.1.1,12446.6,1
+2021-12,Ontario,2021A000235,Labour force,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063944,7.2.1.1.1.1,8235.2,1
+2021-12,Ontario,2021A000235,Employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063945,7.3.1.1.1.1,7716.4,1
+2021-12,Ontario,2021A000235,Full-time employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063946,7.4.1.1.1.1,6317.9,1
+2021-12,Ontario,2021A000235,Part-time employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063947,7.5.1.1.1.1,1398.4,1
+2021-12,Ontario,2021A000235,Unemployment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2063948,7.6.1.1.1.1,518.8,1
+2021-12,Ontario,2021A000235,Unemployment rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2063949,7.7.1.1.1.1,6.3,1
+2021-12,Ontario,2021A000235,Participation rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2063950,7.8.1.1.1.1,66.2,1
+2021-12,Ontario,2021A000235,Employment rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2063951,7.9.1.1.1.1,62.0,1
+2021-12,Manitoba,2021A000246,Population,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2064132,8.1.1.1.1.1,1068.9,1
+2021-12,Manitoba,2021A000246,Labour force,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2064133,8.2.1.1.1.1,718.8,1
+2021-12,Manitoba,2021A000246,Employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2064134,8.3.1.1.1.1,681.1,1
+2021-12,Manitoba,2021A000246,Full-time employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2064135,8.4.1.1.1.1,550.0,1
+2021-12,Manitoba,2021A000246,Part-time employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2064136,8.5.1.1.1.1,131.0,1
+2021-12,Manitoba,2021A000246,Unemployment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2064137,8.6.1.1.1.1,37.7,1
+2021-12,Manitoba,2021A000246,Unemployment rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2064138,8.7.1.1.1.1,5.2,1
+2021-12,Manitoba,2021A000246,Participation rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2064139,8.8.1.1.1.1,67.2,1
+2021-12,Manitoba,2021A000246,Employment rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2064140,8.9.1.1.1.1,63.7,1
+2021-12,Saskatchewan,2021A000247,Population,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2064321,9.1.1.1.1.1,887.0,1
+2021-12,Saskatchewan,2021A000247,Labour force,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2064322,9.2.1.1.1.1,599.3,1
+2021-12,Saskatchewan,2021A000247,Employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2064323,9.3.1.1.1.1,565.8,1
+2021-12,Saskatchewan,2021A000247,Full-time employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2064324,9.4.1.1.1.1,467.0,1
+2021-12,Saskatchewan,2021A000247,Part-time employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2064325,9.5.1.1.1.1,98.8,1
+2021-12,Saskatchewan,2021A000247,Unemployment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2064326,9.6.1.1.1.1,33.5,1
+2021-12,Saskatchewan,2021A000247,Unemployment rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2064327,9.7.1.1.1.1,5.6,1
+2021-12,Saskatchewan,2021A000247,Participation rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2064328,9.8.1.1.1.1,67.6,1
+2021-12,Saskatchewan,2021A000247,Employment rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2064329,9.9.1.1.1.1,63.8,1
+2021-12,Alberta,2021A000248,Population,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2064510,10.1.1.1.1.1,3549.4,1
+2021-12,Alberta,2021A000248,Labour force,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2064511,10.2.1.1.1.1,2485.5,1
+2021-12,Alberta,2021A000248,Employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2064512,10.3.1.1.1.1,2313.9,1
+2021-12,Alberta,2021A000248,Full-time employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2064513,10.4.1.1.1.1,1891.1,1
+2021-12,Alberta,2021A000248,Part-time employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2064514,10.5.1.1.1.1,422.8,1
+2021-12,Alberta,2021A000248,Unemployment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2064515,10.6.1.1.1.1,171.6,1
+2021-12,Alberta,2021A000248,Unemployment rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2064516,10.7.1.1.1.1,6.9,1
+2021-12,Alberta,2021A000248,Participation rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2064517,10.8.1.1.1.1,70.0,1
+2021-12,Alberta,2021A000248,Employment rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2064518,10.9.1.1.1.1,65.2,1
+2021-12,British Columbia,2021A000259,Population,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2064699,11.1.1.1.1.1,4395.0,1
+2021-12,British Columbia,2021A000259,Labour force,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2064700,11.2.1.1.1.1,2866.0,1
+2021-12,British Columbia,2021A000259,Employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2064701,11.3.1.1.1.1,2714.5,1
+2021-12,British Columbia,2021A000259,Full-time employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2064702,11.4.1.1.1.1,2147.7,1
+2021-12,British Columbia,2021A000259,Part-time employment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2064703,11.5.1.1.1.1,566.8,1
+2021-12,British Columbia,2021A000259,Unemployment,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Persons in thousands,428,thousands,3,v2064704,11.6.1.1.1.1,151.5,1
+2021-12,British Columbia,2021A000259,Unemployment rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2064705,11.7.1.1.1.1,5.3,1
+2021-12,British Columbia,2021A000259,Participation rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2064706,11.8.1.1.1.1,65.2,1
+2021-12,British Columbia,2021A000259,Employment rate,Total - Gender,15 years and over,Estimate,Seasonally adjusted,Percent,239,units,0,v2064707,11.9.1.1.1.1,61.8,1
