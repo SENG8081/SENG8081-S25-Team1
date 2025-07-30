@@ -21,8 +21,11 @@ import numpy as np
 import re
 from dateutil.parser import parse
 
-# Constants
-DEFAULT_JSON_PATH = Path("C:/My Courses/Big Data/Semester2/Case Studies/Group Project/job_trends.jobbank.json")
+# Dynamically find the base "Data Collection" directory
+base_path = Path(__file__).resolve().parents[1] / "src" / "Data_Quality"
+
+# Define the primary JSON file path
+DEFAULT_JSON_PATH = base_path / "job_trends.jobbank.json"
 ALTERNATE_PATHS = [Path("./data/jobs.json"), Path("../jobs.json")]
 
 # Configuration
