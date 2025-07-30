@@ -1,6 +1,8 @@
 ﻿import pandas as pd
+import sys
 from pathlib import Path
 from datetime import datetime
+from io import StringIO
 
 def test_employment_projections(csv_path):
     print("Test data quality of Employment Projections dataset")
@@ -48,8 +50,33 @@ def test_employment_projections(csv_path):
         print(f"❌ Issues found in these year columns: {invalid_years}")
 
     # 4. Basic statistics
-    print("\n=== Data Summary ===")
-    print(f"Total records: {len(df)}")
+    total_records = len(df)
+    print(f"Total records: {total_records}")
+
+    # === Test Result Summary ===
+    failed_indexes = set()
+
+    if missing_values.sum() > 0:
+        failed_indexes.update(df[df.isnull().any(axis=1)].index)
+
+    if duplicates.sum() > 0:
+        failed_indexes.update(df[duplicates].index)
+
+    for year in year_columns:
+        if year in df.columns and not pd.api.types.is_numeric_dtype(df[year]):
+            failed_indexes.update(df[~pd.to_numeric(df[year], errors='coerce').notnull()].index)
+
+    num_failed = len(failed_indexes)
+    num_passed = total_records - num_failed
+
+    print("\n=== Test Result ===")
+    print(f"Total Records: {total_records}")
+    print(f"PASS: {num_passed}")
+    print(f"FAIL: {num_failed}")
+    if num_failed == 0:
+        print("ALL PASSED ✅")
+    else:
+        print(f"{num_failed} FAILED ❌")
 
 
 def test_labour_market_conditions(csv_path):
@@ -78,6 +105,28 @@ def test_labour_market_conditions(csv_path):
     else:
         print(f"❌ Found {duplicates.sum()} duplicate records")
         print(df[duplicates].head())
+        
+    # === Test Result Summary ===    
+    total_records = len(df)
+    failed_indexes = set()
+
+    if missing_values.sum() > 0:
+        failed_indexes.update(df[df.isnull().any(axis=1)].index)
+
+    if duplicates.sum() > 0:
+        failed_indexes.update(df[duplicates].index)
+
+    num_failed = len(failed_indexes)
+    num_passed = total_records - num_failed
+
+    print("\n=== Test Result ===")
+    print(f"Total Records: {total_records}")
+    print(f"PASS: {num_passed}")
+    print(f"FAIL: {num_failed}")
+    if num_failed == 0:
+        print("ALL PASSED ✅")
+    else:
+        print(f"{num_failed} FAILED ❌")
 
 def test_statcan_by_industry(csv_path):
     print("\n\nTest data quality of StatCan by Industry dataset")
@@ -138,6 +187,39 @@ def test_statcan_by_industry(csv_path):
         print("✅ uom_id and scalar_id are numeric")
     else:
         print(f"❌ These columns should be numeric but are not: {non_numeric_cols}")
+ 
+    # === Test Result Summary ===
+    total_records = len(df)
+    failed_indexes = set()
+
+    if missing.sum() > 0:
+        failed_indexes.update(df[df.isnull().any(axis=1)].index)
+
+    if dup.sum() > 0:
+        failed_indexes.update(df[dup].index)
+
+    if not invalid_years.empty:
+        failed_indexes.update(invalid_years.index)
+
+    if not invalid_geo.empty:
+        failed_indexes.update(invalid_geo.index)
+
+    for col in ["uom_id", "scalar_id"]:
+        if col in df.columns and not pd.api.types.is_numeric_dtype(df[col]):
+            failed_indexes.update(df[~pd.to_numeric(df[col], errors='coerce').notnull()].index)
+
+    num_failed = len(failed_indexes)
+    num_passed = total_records - num_failed
+
+    print("\n=== Test Result ===")
+    print(f"Total Records: {total_records}")
+    print(f"PASS: {num_passed}")
+    print(f"FAIL: {num_failed}")
+    if num_failed == 0:
+        print("ALL PASSED ✅")
+    else:
+        print(f"{num_failed} FAILED ❌")
+
 
 def test_statcan_labourforce(csv_path):
     print("\n\nTest data quality of StatCan Labourforce dataset")
@@ -203,6 +285,39 @@ def test_statcan_labourforce(csv_path):
         print("✅ uom_id and scalar_id are numeric")
     else:
         print(f"❌ These columns should be numeric but are not: {non_numeric}")
+    
+    # === Test Result Summary ===
+    total_records = len(df)
+    failed_indexes = set()
+
+    if missing.sum() > 0:
+        failed_indexes.update(df[df.isnull().any(axis=1)].index)
+
+    if dup.sum() > 0:
+        failed_indexes.update(df[dup].index)
+
+    if not invalid_dates.empty:
+        failed_indexes.update(invalid_dates.index)
+
+    if not invalid_geo.empty:
+        failed_indexes.update(invalid_geo.index)
+
+    for col in ["uom_id", "scalar_id"]:
+        if col in df.columns and not pd.api.types.is_numeric_dtype(df[col]):
+            failed_indexes.update(df[~pd.to_numeric(df[col], errors='coerce').notnull()].index)
+
+    num_failed = len(failed_indexes)
+    num_passed = total_records - num_failed
+
+    print("\n=== Test Result ===")
+    print(f"Total Records: {total_records}")
+    print(f"PASS: {num_passed}")
+    print(f"FAIL: {num_failed}")
+    if num_failed == 0:
+        print("ALL PASSED ✅")
+    else:
+        print(f"{num_failed} FAILED ❌")
+
 
 if __name__ == "__main__":
     base_path = Path(__file__).resolve().parents[1] / "src" / "Data_Quality"
@@ -234,3 +349,72 @@ if __name__ == "__main__":
         print(f"\n❌ Error: File not found at {lf_path}")
     else:
         test_statcan_labourforce(lf_path)
+
+    report_path = base_path / "data_quality_report.html"
+
+    # Capture print output
+    original_stdout = sys.stdout
+    buffer = StringIO()
+    sys.stdout = buffer
+
+    try:
+        # First file: Employment Projections
+        ep_path = base_path / "CLEANED_employment_projections_2024_2033.csv"
+        if not ep_path.exists():
+            print(f"❌ Error: File not found at {ep_path}")
+        else:
+            test_employment_projections(ep_path)
+
+        # Second file: Labour Market Conditions
+        lmc_path = base_path / "CLEANED_labour_market_conditions_2021_2023.csv"
+        if not lmc_path.exists():
+            print(f"\n❌ Error: File not found at {lmc_path}")
+        else:
+            test_labour_market_conditions(lmc_path)
+
+        # Third file: StatCan by Industry
+        sci_path = base_path / "CLEANED_StatCan_byIndustry.csv"
+        if not sci_path.exists():
+            print(f"\n❌ Error: File not found at {sci_path}")
+        else:
+            test_statcan_by_industry(sci_path)
+
+        # Fourth file: StatCan Labourforce
+        lf_path = base_path / "CLEANED_StatCan_Labourforce.csv"
+        if not lf_path.exists():
+            print(f"\n❌ Error: File not found at {lf_path}")
+        else:
+            test_statcan_labourforce(lf_path)
+
+    finally:
+        html_head = """<!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <title>Data Quality Report</title>
+            <style>
+                body { font-family: Arial, sans-serif; padding: 20px; line-height: 1.6; }
+                h2 { color: #2F4F4F; }
+                .pass { color: green; font-weight: bold; }
+                .fail { color: red; font-weight: bold; }
+                pre { background-color: #f4f4f4; padding: 10px; border-left: 3px solid #ccc; }
+            </style>
+        </head>
+        <body>
+        <h1>Data Quality Report</h1>
+        <pre>
+        """
+
+        html_footer = "</pre>\n</body>\n</html>"
+
+        # Restore standard output
+        sys.stdout = original_stdout
+
+        # Write the captured output to the report file
+        with open(report_path, "w", encoding="utf-8") as f:
+            f.write(html_head)
+            f.write(buffer.getvalue())
+            f.write(html_footer)
+
+
+        print(f"📄 Data quality report written to: {report_path}")
