@@ -205,7 +205,7 @@ def test_statcan_labourforce(csv_path):
         print(f"❌ These columns should be numeric but are not: {non_numeric}")
 
 if __name__ == "__main__":
-    base_path = Path(__file__).resolve().parents[2] / "Data Collection"
+    base_path = Path(__file__).resolve().parents[1] / "src" / "Data_Quality"
 
     # First file: Employment Projections
     ep_path = base_path / "CLEANED_employment_projections_2024_2033.csv"

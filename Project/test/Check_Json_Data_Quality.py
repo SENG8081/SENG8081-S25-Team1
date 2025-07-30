@@ -22,7 +22,7 @@ import re
 from dateutil.parser import parse
 
 # Dynamically find the base "Data Collection" directory
-base_path = Path(__file__).resolve().parents[2] / "Data Collection"
+base_path = Path(__file__).resolve().parents[1] / "src" / "Data_Quality"
 
 # Define the primary JSON file path
 DEFAULT_JSON_PATH = base_path / "job_trends.jobbank.json"
