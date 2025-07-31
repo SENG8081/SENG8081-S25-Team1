@@ -99,7 +99,6 @@ Collections:
 
 This module performs automated quality validation on all `.csv` files in the project’s dataset directories. It ensures that each dataset meets basic quality standards before further processing or analysis.
 
----
 
 ##### Checks Performed
 
@@ -111,7 +110,6 @@ This module performs automated quality validation on all `.csv` files in the pro
 - **Invalid Encodings**: Ensures data is in UTF-8 and contains valid characters.
 - **Column Type Consistency**: Validates if columns have consistent types.
 
----
 
 ##### Output
 
@@ -124,8 +122,11 @@ A report is generated for each file scanned:
   - Summary Table with Row-wise Error Info (if any)
   - ✅ `ALL PASS` indicator if no failures
   - ❌ `X FAILED` indicator if errors are found
+  
+##### Screenshot:
+<img width="1365" height="767" alt="3" src="https://github.com/user-attachments/assets/0009922b-2d17-4a76-9ce0-ee1ffc306e6e" />
 
----
+
 
 ##### How to Run
 
