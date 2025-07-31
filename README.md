@@ -124,14 +124,27 @@ A report is generated for each file scanned:
   - ❌ `X FAILED` indicator if errors are found
   
 ##### Screenshot:
-<img width="1365" height="767" alt="3" src="https://github.com/user-attachments/assets/0009922b-2d17-4a76-9ce0-ee1ffc306e6e" />
+<img width="1365" height="731" alt="3-1c" src="https://github.com/user-attachments/assets/24771b9e-c2d6-44d5-97c7-0f1ff4b4b885" />
+
 
 
 
 ##### How to Run
 
-```bash
 python check_data_quality.py
+
+#### Data Analysis and Visualization
+This section examines Canada's labor market dynamics through visualizations created with Tableau. Each graph addresses specific questions about:
+
+- Employment trends over time
+
+- Regional differences and geographic disparities
+
+- High-demand occupations and growth sectors
+
+- Workforce participation patterns and sectoral shifts
+
+The analysis reveals critical insights that are valuable for policymakers, educators, and business stakeholders, supporting evidence-based planning and strategic decisions.
 
 ### Next Phase Plan
 - Merge all the scripts together and add automated testcases.
