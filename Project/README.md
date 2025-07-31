@@ -27,3 +27,42 @@ For this project, long-term and secure data storage is essential to ensure both 
 
 - ii. What tools to store the data: We chose MongoDB as our primary database system. A key advantage of MongoDB is its schema-free document model, which is ideal for handling data from diverse and inconsistent sources. Our project integrates data from multiple channels—such as public APIs, scraped content, and CSV imports—each with its own structure and format. MongoDB allows us to store and query these varied datasets in a flexible way, without enforcing a rigid schema. This greatly simplifies our data ingestion and transformation process, while supporting efficient querying and future scalability.
 
+## Data Quality
+
+### Overview
+
+This module performs automated quality validation on all `.csv` files in the project’s dataset directories. It ensures that each dataset meets basic quality standards before further processing or analysis.
+
+
+### Checks Performed
+
+- **Empty File Check**: Skips files that are completely empty.
+- **Missing Values**: Detects nulls, NaNs, or empty string fields.
+- **Duplicate Rows**: Flags rows that are exact duplicates.
+- **Blank Columns**: Identifies columns with only missing/blank values.
+- **Whitespace Trimming**: Ensures no extra spaces in string fields.
+- **Invalid Encodings**: Ensures data is in UTF-8 and contains valid characters.
+- **Column Type Consistency**: Validates if columns have consistent types.
+
+
+### Output
+
+A report is generated for each file scanned:
+
+- **Location**: Saved as `data_quality_report.html` in the root or script directory.
+- **Content Includes**:
+  - Total Records Count
+  - Number of Records Passed and Failed
+  - Summary Table with Row-wise Error Info (if any)
+  - ✅ `ALL PASS` indicator if no failures
+  - ❌ `X FAILED` indicator if errors are found
+  
+### Screenshot:
+<img width="1365" height="731" alt="3-1c" src="https://github.com/user-attachments/assets/24771b9e-c2d6-44d5-97c7-0f1ff4b4b885" />
+
+
+
+
+### How to Run
+
+python check_data_quality.py
