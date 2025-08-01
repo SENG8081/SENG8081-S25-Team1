@@ -31,3 +31,8 @@ Below are the datasets downloaded/fetched using *Data_Collection_Script.py*:
 2. Parse HTML content using BeautifulSoup to extract job-level details.
 3. Store raw data into MongoDB (job_postings collection), using upsert to avoid duplicates.
 4. Raw fields such as date and salary are stored as-is; no data cleaning, parsing, or normalization is performed in this stage.
+
+### Pre-processing
+- Cleaning datasets by fixing missing, null or error values.
+- Standardize raw data formats for loading into the job_market_trends database.
+- Maintain reproducibility and versioning of collected data files.
