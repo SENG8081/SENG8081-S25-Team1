@@ -106,12 +106,22 @@ A report is generated for each file scanned:
   - ❌ `X FAILED` indicator if errors are found
   
 #### Data Analysis and Visualization
-This section examines Canada's labor market dynamics through visualizations created with Tableau. Each graph addresses specific questions about:
+This section examines Canada's labor market dynamics through visualizations created with Tableau. 
 
-- Employment trends over time
-- Regional differences and geographic disparities
-- High-demand occupations and growth sectors
-- Workforce participation patterns and sectoral shifts
+##### Purpose of Visualization
+
+The goal of the visualization phase is to:  
+- Present **historical trends** in employment and labour force participation.  
+- Highlight **regional and sector-based job demand** using vacancies and wages.  
+- Show **real-time hiring trends** from Job Bank postings.  
+- Provide **forward-looking projections (2025–2033)** to identify emerging skill gaps.  
+
+##### Visualization Tool
+
+- **Tableau**
+  - Interactive KPIs and charts for employment trends, job vacancies, and real-time postings.  
+  - Connected via **MongoDB BI Connector** to allow for dynamic data refresh.
+  - Cretaed two dashboards - one with generalized labour statistics trend and another with occupation/industry specific trend.
 
 The analysis reveals critical insights that are valuable for policymakers, educators, and business stakeholders, supporting evidence-based planning and strategic decisions.
 
