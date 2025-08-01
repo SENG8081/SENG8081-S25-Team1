@@ -21,17 +21,20 @@ This project conducts a comprehensive analysis of Canada’s job market, focusin
 #### System Components
 * Python Backend: Data ingestion, cleaning, and analysis.
 * Real-Time API: Statistics Canada Labour Force Survey API.
-* Historical Dataset: Government of Canada Open Data Portal archives and Kaggle dataset.
-* Custom Web Scraper: Collects live job postings from Google Jobs.
+* Historical Dataset: Government of Canada Open Data Portal.
+* Custom Web Scraper: Collects live job postings from Canada Job Bank.
 * Database: NoSQL storage using MongoDB.
-* Dashboard: Tableau (connected via MongoDB BI Connector) or MongoDB Charts for visualization.
-
+* Dashboard: Tableau (connected via MongoDB BI Connector).
+  
 #### Data Research and Integration
 
 ##### Sources
-* https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1410028701
-* https://open.canada.ca/data/dataset/a70fcb3b-9a57-4e10-8372-9016935fc5d9
-* https://www.kaggle.com/datasets/arshkon/linkedin-job-postings
+
+* https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1410028703
+* https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1410002301
+* https://open.canada.ca/data/en/dataset/e80851b8-de68-43bd-a85c-c72e1b3a3890/resource/da1135c5-a1df-4a07-a81e-de308ae6cce6
+* https://open.canada.ca/data/en/dataset/e80851b8-de68-43bd-a85c-c72e1b3a3890/resource/ff795791-0728-4dcf-8fdd-d7ba9e1210b8
+* https://www.jobbank.gc.ca/jobsearch/
 
 #### Data Collection
 
@@ -45,17 +48,17 @@ This project conducts a comprehensive analysis of Canada’s job market, focusin
 ##### Approaches
 
 1. Historical Data
-    1. Download CSV/JSON datasets.
-    2. Clean data using pandas.
-    3. Load into Database via pymongo.
+    1. Download official CSV datasets from Government of Canada open data sources.
+    2. Save them locally for ingestion into downstream systems.
+    3. Real-Time Data
 
 2. Real-Time Data
-    1. Fetch data using API key and Python’s requests.
-    2. Scrape live job postings using a custom Python scraper.
-    3. Parse JSON and normalize.
-    4. Merge into existing MongoDB collections.
+    1. Use Selenium and Selenium Wire to scrape dynamically loaded job postings from Job Bank Canada.
+    2. Parse HTML content using BeautifulSoup to extract job-level details.
+    3. Store raw data into MongoDB (job_postings collection), using upsert to avoid duplicates.
+    4. Raw fields such as date and salary are stored as-is; no data cleaning, parsing, or normalization is performed in this stage.
 
-#### Data Storage and Maintenance
+#### Data Storage
 
 Data Storage: _MongoDB_
 
@@ -65,40 +68,21 @@ Database: _job_market_trends_
 
 Collections: 
 
-1. _labour_force_stats_: Labour force characteristics by region, gender, age group.
+1. _labour_force_stats_ – Monthly Canadian labour force metrics including employment, unemployment, and participation rates by province, age, and gender.
 
-2. _industry_jobs_: NAICS industry job counts across years and sectors.
+2. _industry_employment_ – Employment trends by NAICS industry and province, supporting sector-level and regional analysis.
 
-3. _job_postings_: Detailed job postings scraped from LinkedIn or Google Jobs.
+3. _employment_forecast_ – Projected job openings and workforce demand across occupations in Canada for 2025–2033.
 
-##### Maintenance Practices
+4. _market_condition_ – Assessment of recent labour market conditions (2021–2023), indicating occupational shortages, surpluses, or balance.
 
-✅ Ingestion Strategy
-- Use `load_data.py` for batch loading.
-- Column normalization and null checks handled before insert.
-- Timestamp columns converted appropriately.
-
-🔄 Update Schedule
-- Monthly: Labour Force & Industry Jobs (from StatsCan, Open Canada).
-- Daily/Weekly:Job postings via automated scraper.
-- Monthly archiving of API data.
-- Automated backups.
-
-🧹 Data Hygiene
-- De-duplication using IDs.
-- Missing values filled with defaults or flagged for review.
-- Normalization ensures analytical consistency.
-
-🛡️ Backups
-- Weekly dump using mongodump to backups.
-- Retain minimum 3 historical snapshots.
+5. _job_postings_ – Real-time Job Bank postings with details on job title, location, employer, wages, and employment type.
 
 #### Data Quality
 
 ##### Overview
 
 This module performs automated quality validation on all `.csv` files in the project’s dataset directories. It ensures that each dataset meets basic quality standards before further processing or analysis.
-
 
 ##### Checks Performed
 
@@ -110,11 +94,9 @@ This module performs automated quality validation on all `.csv` files in the pro
 - **Invalid Encodings**: Ensures data is in UTF-8 and contains valid characters.
 - **Column Type Consistency**: Validates if columns have consistent types.
 
-
 ##### Output
 
 A report is generated for each file scanned:
-
 - **Location**: Saved as `data_quality_report.html` in the root or script directory.
 - **Content Includes**:
   - Total Records Count
@@ -123,32 +105,27 @@ A report is generated for each file scanned:
   - ✅ `ALL PASS` indicator if no failures
   - ❌ `X FAILED` indicator if errors are found
   
-##### Screenshot:
-<img width="1365" height="731" alt="3-1c" src="https://github.com/user-attachments/assets/24771b9e-c2d6-44d5-97c7-0f1ff4b4b885" />
-
-
-
-
-##### How to Run
-
-python check_data_quality.py
-
 #### Data Analysis and Visualization
 This section examines Canada's labor market dynamics through visualizations created with Tableau. Each graph addresses specific questions about:
 
 - Employment trends over time
-
 - Regional differences and geographic disparities
-
 - High-demand occupations and growth sectors
-
 - Workforce participation patterns and sectoral shifts
 
 The analysis reveals critical insights that are valuable for policymakers, educators, and business stakeholders, supporting evidence-based planning and strategic decisions.
 
-### Next Phase Plan
-- Merge all the scripts together and add automated testcases.
-- Finalize on the visualizations required.
+#### DevOps
+
+- DevOps approach focused on automation, integration.
+- Local pipeline to automate data ingestion and transformation.
+- GitHub for Version control, pull request management, and branching workflows.
+- Apscheduler for job scheduling orchestrates scraping and download tasks at scheduled using cron job.
+- Code Versioning & Collaboration
+
+
+
+
 
 
 
