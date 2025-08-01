@@ -14,25 +14,22 @@ The job_market_trends MongoDB database stores all curated job market data in col
 
 ### 🗂️ Core Collections
 
-_Schema file_ defines the schema for database job_market_trends and below tables:
+Database _job_market_trends_ 
 
-1. `labour_force_stats`
-- Labour force characteristics by region, gender, age group
-- Source: Statistics Canada Table 14-10-0287-01
+1. _labour_force_stats_ – Monthly Canadian labour force metrics including employment, unemployment, and participation rates by province, age, and gender.
 
-2. `industry_jobs`
-- NAICS industry job counts across years and sectors
-- Source: Open Canada Job Bank
+2. _industry_employment_ – Employment trends by NAICS industry and province, supporting sector-level and regional analysis.
 
-3. `job_postings`
-- Detailed job postings scraped from LinkedIn or Google Jobs
-- Integrates with real time jib search results
-- Source: Kaggle
+3. _employment_forecast_ – Projected job openings and workforce demand across occupations in Canada for 2025–2033.
+
+4. _market_condition_ – Assessment of recent labour market conditions (2021–2023), indicating occupational shortages, surpluses, or balance.
+
+5. _job_postings_ – Real-time Job Bank postings with details on job title, location, employer, wages, and employment type.
 
 ### ⚙️ Maintenance Practices
 
 #### ✅ Ingestion Strategy
-- Use `load_data.py` for batch loading.
+- Use `Data_Loading_Script.py` for batch loading.
 - Column normalization and null checks handled before insert.
 - Timestamp columns converted appropriately.
 
@@ -54,6 +51,5 @@ _Schema file_ defines the schema for database job_market_trends and below tables
 ### 📤 Integration Points
 
 - Data is used by:
-  - _load_data.py_ for ingest.
-  - Dashboards (Tableau or MongoDB Charts) for trends and forecasting.
+  - Dashboards (Tableau ) for trends and forecasting.
   - APIs for interactive job search and labor market insights.
