@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <title>Data Quality Report</title>
+            <style>
+                body { font-family: Arial, sans-serif; padding: 20px; line-height: 1.6; }
+                h2 { color: #2F4F4F; }
+                .pass { color: green; font-weight: bold; }
+                .fail { color: red; font-weight: bold; }
+                pre { background-color: #f4f4f4; padding: 10px; border-left: 3px solid #ccc; }
+            </style>
+        </head>
+        <body>
+        <h1>Data Quality Report</h1>
+        <pre>
+        Test data quality of Employment Projections dataset
+✅ Successfully loaded data from C:\Users\binhu\source\repos\SENG8081-S25-Team1\Project\src\Data_Quality\CLEANED_employment_projections_2024_2033.csv
+
+=== Missing Values Check ===
+✅ No missing values found
+
+=== Duplicate Records Check ===
+✅ No duplicate records found
+
+=== Year Columns Validation ===
+✅ All year columns contain numeric values
+Total records: 533
+
+=== Test Result ===
+Total Records: 533
+PASS: 533
+FAIL: 0
+ALL PASSED ✅
+
+
+Test data quality of Labour Market Conditions dataset
+✅ Successfully loaded data from C:\Users\binhu\source\repos\SENG8081-S25-Team1\Project\src\Data_Quality\CLEANED_labour_market_conditions_2021_2023.csv
+
+=== Missing Values Check ===
+✅ No missing values found
+
+=== Duplicate Records Check ===
+✅ No duplicate records found
+
+=== Test Result ===
+Total Records: 533
+PASS: 533
+FAIL: 0
+ALL PASSED ✅
+
+
+Test data quality of StatCan by Industry dataset
+✅ Successfully loaded data from C:\Users\binhu\source\repos\SENG8081-S25-Team1\Project\src\Data_Quality\CLEANED_StatCan_byIndustry.csv
+
+=== Missing Values Check ===
+✅ No missing values found
+
+=== Duplicate Records Check ===
+✅ No duplicate records found
+
+=== Year Range Check (ref_date) ===
+✅ All ref_date values are between 1900 and 2025
+
+=== Geographic Region Check (geo) ===
+✅ All geo values are valid Canadian regions
+
+=== Numeric Columns Check (uom_id, scalar_id) ===
+✅ uom_id and scalar_id are numeric
+
+=== Test Result ===
+Total Records: 1530
+PASS: 1530
+FAIL: 0
+ALL PASSED ✅
+
+
+Test data quality of StatCan Labourforce dataset
+✅ Successfully loaded data from C:\Users\binhu\source\repos\SENG8081-S25-Team1\Project\src\Data_Quality\CLEANED_StatCan_Labourforce.csv
+
+=== Missing Values Check ===
+✅ No missing values found
+
+=== Duplicate Records Check ===
+✅ No duplicate records found
+
+=== ref_date Format Check ===
+❌ Invalid ref_date format found:
+0      2022-12
+99     2023-12
+197    2024-12
+295    2025-06
+393    2021-12
+Name: ref_date, dtype: object
+
+=== Geographic Region Check (geo) ===
+✅ All geo values are valid Canadian regions
+
+=== Numeric Columns Check (uom_id, scalar_id) ===
+✅ uom_id and scalar_id are numeric
+
+=== Test Result ===
+Total Records: 491
+PASS: 0
+FAIL: 491
+491 FAILED ❌
+</pre>
+</body>
+</html>
