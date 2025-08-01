@@ -1,102 +1,36 @@
-\# Job Data Quality Checker
+## Data Quality
 
+This module performs automated quality validation on all `.csv` files in the project’s dataset directories. It ensures that each dataset meets basic quality standards before further processing or analysis.
 
+---
 
-Validates Canadian job postings for data quality.
+##### Checks Performed
 
+- **Empty File Check**: Skips files that are completely empty.
+- **Missing Values**: Detects nulls, NaNs, or empty string fields.
+- **Duplicate Rows**: Flags rows that are exact duplicates.
+- **Blank Columns**: Identifies columns with only missing/blank values.
+- **Whitespace Trimming**: Ensures no extra spaces in string fields.
+- **Invalid Encodings**: Ensures data is in UTF-8 and contains valid characters.
+- **Column Type Consistency**: Validates if columns have consistent types.
 
+---
 
-\## Requirements
+##### Output
 
-\- Python 3.7+
+A report is generated for each file scanned:
 
-\- pandas
+- **Location**: Saved as `data_quality_report.html` in the root or script directory.
+- **Content Includes**:
+  - Total Records Count
+  - Number of Records Passed and Failed
+  - Summary Table with Row-wise Error Info (if any)
+  - ✅ `ALL PASS` indicator if no failures
+  - ❌ `X FAILED` indicator if errors are found
 
-\- python-dateutil
+---
 
+##### How to Run
 
-
-\## Usage
-
-1\. Save your job data as `job\_data.json`
-
-2\. Run:
-
-&nbsp;  ```bash
-
-&nbsp;  python run\_quality\_checks.py
-
-
-
-
-
-Checks Performed
-
-1. Completeness (all required fields present)
-
-&nbsp;	Job title
-
-&nbsp;	Company
-
-&nbsp;	Location
-
-&nbsp;	Date
-
-&nbsp;	Salary
-
-
-
-2\. Location Validity
-
-* Must be Canadian province or "Various locations"
-* Example valid formats:
-
-&nbsp;	Toronto, ON
-
-&nbsp;	Vancouver (BC)
-
-&nbsp;	Various locations
-
-
-
-
-
-Output
-
-&nbsp;	Console report showing:
-
-&nbsp;		Passed checks (✅)
-
-&nbsp;		Failed checks (❌) with sample invalid records
-
-&nbsp;	JSON report (optional)
-
-
-
-
-
-Customize
-
-Edit check\_canadian\_locations() to:
-
-* Add valid location formats
-* Change validation rules
-
-
-
-Example Failed Record
-
-&nbsp;	❌ FAIL: canadian\_locations
-
-&nbsp;	Invalid Count: 5
-
-&nbsp;	Sample Issues:
-
-&nbsp;	- ID: 123 | Location: New York, NY | Job: Developer
-
-
-
-
-
-
-
+```bash
+python check_data_quality.py
